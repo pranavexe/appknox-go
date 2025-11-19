@@ -31,7 +31,7 @@ jobs:
           distribution: 'temurin'
           cache: maven
 
-      
+      #insatll appknox cli 2
       - name: Install Appknox CLI (Linux)
         run: |
           echo "Fetching latest Appknox CLI release..."
