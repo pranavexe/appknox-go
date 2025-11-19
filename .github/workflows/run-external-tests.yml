@@ -32,6 +32,7 @@ jobs:
           cache: maven
 
       #insatll appknox cli 2
+      #insatll Appknox Cli
       - name: Install Appknox CLI (Linux)
         run: |
           echo "Fetching latest Appknox CLI release..."
